@@ -11,7 +11,9 @@ function convertWordToPigLatin(inputWord) {
 }
 
 
-// Very raw, needs to be refactored at least for clarity and to flatten the nested conditionals (pull out 19-33 into other methods at the least), currently factors in punctuation and hyphens
+// Very raw, needs to be refactored at least for clarity and to flatten the 
+// nested conditionals (pull out 19-33 into other methods at the least), currently factors
+// in punctuation and hyphens
 function convertSentence(inputSentence) {
   var splitSentence = inputSentence.split(" ");
   var convertedSentence = [];
